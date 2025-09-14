@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> "My First Webpage" </title>
+        <style>
+            body {
+                background-image: url("photo.jpeg");
+                background-size: cover;
+                background-attachment: fixed;
+                font-family:Arial, sans-serif;
+            }
+            table {background-color:white}
+        </style>
+    </head>
+    <body>
+        <table border="1" width="100%">
+            <tr>
+                <td width="30%" valign="top">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#web">Websites</a></li>
+                        <li><a href="#uni">My university</a></li>
+                        <li><a href="#schedule">My schedule</a></li>
+                        <li><a href="#mood">Mood</a></li>
+                    </ul>
+                </td>
+                <td width="70%" valign="top">
+                    <h4>Welcome!</h4>
+                    <p>Hello and welcome to my first webpage!
+                    </p>
+                </td>
+            </tr>
+        </table> <!-- this part creates a two column layout-->
+
+        <h1>Kabidenova Aigerim</h1>
+        <h2>Course: WEB technologies(front end)</h2>
+        <h3 id="about">About me</h3>
+        <p> Hello! My name is Aigerim. I am a 2nd year student at Astana IT University. My major is Computer Science.</p>
+
+        <h4 id="hobbies">My hobbies</h4>
+        <ol>
+            <li>Watching Kdramas</li>
+            <li>Painting</li>
+            <li>Reading manhwa</li>
+        </ol>
+
+        <h4 id="web">My favorite websites</h4>
+        <ul>
+            <li><a href="https://dorama.land/" target="_blank">DoramaLand</a></li>
+            <li><a href="https://www.webtoons.com/en/" target="_blank">WebToon</a></li>
+            <li><a href="https://www.lookmovie2.to/" target="_blank">Movies</a></li>
+        </ul>
+
+        <h4 id="uni">My university</h4>
+        <img src="uni.jpg" alt="My university" width="500">
+        <button>Click me</button>
+
+        <h4 id="schedule">My weekly class schedule</h4>
+        <table border="1" cellpadding="8" cellspacing="5">
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>WEB Technologies</td>
+                <td>Monday</td>
+                <td>13:05-13:55</td>
+            </tr>
+            <tr>
+                <td>Intro to Functional Programming (lecture)</td>
+                <td>Monday</td>
+                <td>14:00-15:50</td>
+            </tr>
+            <tr>
+                <td>Computer Organisation and Architecture</td>
+                <td>Tuesday</td>
+                <td>14:00-15:50</td>
+            </tr>
+            <tr>
+                <td>Russian Language</td>
+                <td>Wednesday</td>
+                <td>14:00-15:50</td>
+            </tr>
+            <tr>
+                <td>WEB Technologies</td>
+                <td>Wednesday</td>
+                <td>16:00-17:50</td>
+            </tr>
+            <tr>
+                <td>Intro to Functional Programming</td>
+                <td>Wednesday</td>
+                <td>18:00-19:50</td>
+            </tr>
+            <tr>
+                <td>Analytic Geometry (lecture)</td>
+                <td>Thursday</td>
+                <td>17:00-18:50</td>
+            </tr>
+            <tr>
+                <td>Intro to Functional Programming</td>
+                <td>Friday</td>
+                <td>14:00-15:50</td>
+            </tr>
+            <tr>
+                <td>Analytic Geometry</td>
+                <td>Friday</td>
+                <td>14:00-15:50</td>
+            </tr>
+            <tr>
+                <td>Computer Organisation and Architecture</td>
+                <td>Friday</td>
+                <td>18:00-19:50</td>
+            </tr>
+        </table>
+
+        <h4 id="mood">My mood today</h4>
+        <p>Today I feel curious 🤔, motivated 💪, and happy 😃.A cup of coffee ☕️ also helps me stay focused 🧑‍💻.</p>
+
+        <h3> About you</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"> <br><br>
+            <label for="color">Your favorite color:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
